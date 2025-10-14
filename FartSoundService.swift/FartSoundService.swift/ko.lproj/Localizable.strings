@@ -1,0 +1,27 @@
+"app_title" = "방구 놀이터";
+"initial_message" = "화면을 터치하면 다양한 방구 소리가 나요!";
+"initial_bottom_message" = "터치할 때마다 새로운 소리가 재생돼요";
+
+// Button texts
+"button_text_1" = "뿡!";
+"button_text_2" = "푸푸!";
+"button_text_3" = "지이잉~";
+"button_text_4" = "뿡뿡 폭발!";
+"button_text_5" = "방구 요정 출동!";
+"button_text_6" = "뿡뿡 대마왕 등장";
+"button_text_7" = "뿡뿡 챔피언!";
+"button_text_8" = "최강 뿡파워!";
+"button_text_9" = "푸욱~뿡";
+"button_text_10" = "뿍~";
+
+// Bottom messages
+"bottom_msg_1" = "터치할 때마다 새로운 소리가 재생돼요";
+"bottom_msg_2" = "신나는 방구 소리를 즐겨보세요!";
+"bottom_msg_3" = "오늘도 즐거운 뿡뿡 타임~";
+"bottom_msg_4" = "재미있는 방구 소리가 가득!";
+"bottom_msg_5" = "매번 다른 소리가 나와요";
+"bottom_msg_6" = "방구의 마법을 느껴보세요";
+"bottom_msg_7" = "뿡뿡의 세계로 오신 것을 환영해요";
+"bottom_msg_8" = "놀라운 방구의 세계";
+"bottom_msg_9" = "계속 눌러서 더 많은 소리를 들어보세요";
+"bottom_msg_10" = "어린이를 위한 방구 콘서트!";

@@ -1,0 +1,27 @@
+"app_title" = "おなら遊び場";
+"initial_message" = "画面をタップして色々なおなら音を聞こう！";
+"initial_bottom_message" = "タップするたびに新しい音が再生されます";
+
+// Button texts
+"button_text_1" = "ぷぅ！";
+"button_text_2" = "ぷぷ！";
+"button_text_3" = "ぷす～";
+"button_text_4" = "ぷぷ爆発！";
+"button_text_5" = "おなら妖精出動！";
+"button_text_6" = "ぷぷ大魔王登場";
+"button_text_7" = "ぷぷチャンピオン！";
+"button_text_8" = "最強ぷぅパワー！";
+"button_text_9" = "ぷう～っ";
+"button_text_10" = "ぷぅ～";
+
+// Bottom messages
+"bottom_msg_1" = "タップするたびに新しい音が再生されます";
+"bottom_msg_2" = "楽しいおなら音を楽しもう！";
+"bottom_msg_3" = "今日も楽しいぷぷタイム～";
+"bottom_msg_4" = "面白いおなら音がいっぱい！";
+"bottom_msg_5" = "毎回違う音が鳴ります";
+"bottom_msg_6" = "おならの魔法を感じよう";
+"bottom_msg_7" = "ぷぷの世界へようこそ";
+"bottom_msg_8" = "驚きのおならの世界";
+"bottom_msg_9" = "もっと多くの音を聞いてみよう";
+"bottom_msg_10" = "子供のためのおならコンサート！";

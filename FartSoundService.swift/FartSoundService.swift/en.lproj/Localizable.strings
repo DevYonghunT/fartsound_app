@@ -1,0 +1,27 @@
+"app_title" = "Fart Playground";
+"initial_message" = "Tap the screen for fun fart sounds!";
+"initial_bottom_message" = "Every tap plays a new sound";
+
+// Button texts
+"button_text_1" = "Poot!";
+"button_text_2" = "Toot!";
+"button_text_3" = "Pfft~";
+"button_text_4" = "Big Blast!";
+"button_text_5" = "Toot Fairy!";
+"button_text_6" = "Fart Master";
+"button_text_7" = "Champion!";
+"button_text_8" = "Super Power!";
+"button_text_9" = "Prrrrt~";
+"button_text_10" = "Brrr~";
+
+// Bottom messages
+"bottom_msg_1" = "Every tap plays a new sound";
+"bottom_msg_2" = "Enjoy funny fart sounds!";
+"bottom_msg_3" = "Happy toot time today~";
+"bottom_msg_4" = "Full of hilarious sounds!";
+"bottom_msg_5" = "Different sound every time";
+"bottom_msg_6" = "Feel the magic of toots";
+"bottom_msg_7" = "Welcome to the world of farts";
+"bottom_msg_8" = "Amazing fart sounds";
+"bottom_msg_9" = "Keep tapping for more sounds";
+"bottom_msg_10" = "Fart concert for kids!";

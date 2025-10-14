@@ -7,62 +7,86 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		EB9128B42E9DD0D400068704 /* PBXContainerItemProxy */ = {
+		EB9128E72E9DD33200068704 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB91289E2E9DD0D200068704 /* Project object */;
+			containerPortal = EB9128D12E9DD32E00068704 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB9128A52E9DD0D200068704;
-			remoteInfo = fartsound_app;
+			remoteGlobalIDString = EB9128D82E9DD32E00068704;
+			remoteInfo = FartSoundService.swift;
 		};
-		EB9128BE2E9DD0D400068704 /* PBXContainerItemProxy */ = {
+		EB9128F12E9DD33200068704 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EB91289E2E9DD0D200068704 /* Project object */;
+			containerPortal = EB9128D12E9DD32E00068704 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB9128A52E9DD0D200068704;
-			remoteInfo = fartsound_app;
+			remoteGlobalIDString = EB9128D82E9DD32E00068704;
+			remoteInfo = FartSoundService.swift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EB9128A62E9DD0D200068704 /* fartsound_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fartsound_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB9128B32E9DD0D400068704 /* fartsound_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fartsound_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB9128BD2E9DD0D400068704 /* fartsound_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fartsound_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9128D92E9DD32E00068704 /* FartSoundService.swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FartSoundService.swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9128E62E9DD33200068704 /* FartSoundService.swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FartSoundService.swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9128F02E9DD33200068704 /* FartSoundService.swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FartSoundService.swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EB91291C2E9E193200068704 /* Exceptions for "FartSoundService.swift" folder in "FartSoundService.swift" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Localizable.strings",
+			);
+			target = EB9128D82E9DD32E00068704 /* FartSoundService.swift */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		EB91291D2E9E193200068704 /* Exceptions for "FartSoundService.swift" folder in "Compile Sources" phase from "FartSoundService.swift" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = EB9128D52E9DD32E00068704 /* Sources */;
+			membershipExceptions = (
+				"/Localized: Localizable.strings",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EB9128A82E9DD0D200068704 /* fartsound_app */ = {
+		EB9128DB2E9DD32E00068704 /* FartSoundService.swift */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = fartsound_app;
+			exceptions = (
+				EB91291C2E9E193200068704 /* Exceptions for "FartSoundService.swift" folder in "FartSoundService.swift" target */,
+				EB91291D2E9E193200068704 /* Exceptions for "FartSoundService.swift" folder in "Compile Sources" phase from "FartSoundService.swift" target */,
+			);
+			path = FartSoundService.swift;
 			sourceTree = "<group>";
 		};
-		EB9128B62E9DD0D400068704 /* fartsound_appTests */ = {
+		EB9128E92E9DD33200068704 /* FartSoundService.swiftTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = fartsound_appTests;
+			path = FartSoundService.swiftTests;
 			sourceTree = "<group>";
 		};
-		EB9128C02E9DD0D400068704 /* fartsound_appUITests */ = {
+		EB9128F32E9DD33200068704 /* FartSoundService.swiftUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = fartsound_appUITests;
+			path = FartSoundService.swiftUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EB9128A32E9DD0D200068704 /* Frameworks */ = {
+		EB9128D62E9DD32E00068704 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB9128B02E9DD0D400068704 /* Frameworks */ = {
+		EB9128E32E9DD33200068704 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB9128BA2E9DD0D400068704 /* Frameworks */ = {
+		EB9128ED2E9DD33200068704 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +96,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EB91289D2E9DD0D200068704 = {
+		EB9128D02E9DD32E00068704 = {
 			isa = PBXGroup;
 			children = (
-				EB9128A82E9DD0D200068704 /* fartsound_app */,
-				EB9128B62E9DD0D400068704 /* fartsound_appTests */,
-				EB9128C02E9DD0D400068704 /* fartsound_appUITests */,
-				EB9128A72E9DD0D200068704 /* Products */,
+				EB9128DB2E9DD32E00068704 /* FartSoundService.swift */,
+				EB9128E92E9DD33200068704 /* FartSoundService.swiftTests */,
+				EB9128F32E9DD33200068704 /* FartSoundService.swiftUITests */,
+				EB9128DA2E9DD32E00068704 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EB9128A72E9DD0D200068704 /* Products */ = {
+		EB9128DA2E9DD32E00068704 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB9128A62E9DD0D200068704 /* fartsound_app.app */,
-				EB9128B32E9DD0D400068704 /* fartsound_appTests.xctest */,
-				EB9128BD2E9DD0D400068704 /* fartsound_appUITests.xctest */,
+				EB9128D92E9DD32E00068704 /* FartSoundService.swift.app */,
+				EB9128E62E9DD33200068704 /* FartSoundService.swiftTests.xctest */,
+				EB9128F02E9DD33200068704 /* FartSoundService.swiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +119,138 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB9128A52E9DD0D200068704 /* fartsound_app */ = {
+		EB9128D82E9DD32E00068704 /* FartSoundService.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB9128C72E9DD0D400068704 /* Build configuration list for PBXNativeTarget "fartsound_app" */;
+			buildConfigurationList = EB9128FA2E9DD33200068704 /* Build configuration list for PBXNativeTarget "FartSoundService.swift" */;
 			buildPhases = (
-				EB9128A22E9DD0D200068704 /* Sources */,
-				EB9128A32E9DD0D200068704 /* Frameworks */,
-				EB9128A42E9DD0D200068704 /* Resources */,
+				EB9128D52E9DD32E00068704 /* Sources */,
+				EB9128D62E9DD32E00068704 /* Frameworks */,
+				EB9128D72E9DD32E00068704 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EB9128A82E9DD0D200068704 /* fartsound_app */,
+				EB9128DB2E9DD32E00068704 /* FartSoundService.swift */,
 			);
-			name = fartsound_app;
+			name = FartSoundService.swift;
 			packageProductDependencies = (
 			);
-			productName = fartsound_app;
-			productReference = EB9128A62E9DD0D200068704 /* fartsound_app.app */;
+			productName = FartSoundService.swift;
+			productReference = EB9128D92E9DD32E00068704 /* FartSoundService.swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EB9128B22E9DD0D400068704 /* fartsound_appTests */ = {
+		EB9128E52E9DD33200068704 /* FartSoundService.swiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB9128CA2E9DD0D400068704 /* Build configuration list for PBXNativeTarget "fartsound_appTests" */;
+			buildConfigurationList = EB9128FD2E9DD33200068704 /* Build configuration list for PBXNativeTarget "FartSoundService.swiftTests" */;
 			buildPhases = (
-				EB9128AF2E9DD0D400068704 /* Sources */,
-				EB9128B02E9DD0D400068704 /* Frameworks */,
-				EB9128B12E9DD0D400068704 /* Resources */,
+				EB9128E22E9DD33200068704 /* Sources */,
+				EB9128E32E9DD33200068704 /* Frameworks */,
+				EB9128E42E9DD33200068704 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB9128B52E9DD0D400068704 /* PBXTargetDependency */,
+				EB9128E82E9DD33200068704 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EB9128B62E9DD0D400068704 /* fartsound_appTests */,
+				EB9128E92E9DD33200068704 /* FartSoundService.swiftTests */,
 			);
-			name = fartsound_appTests;
+			name = FartSoundService.swiftTests;
 			packageProductDependencies = (
 			);
-			productName = fartsound_appTests;
-			productReference = EB9128B32E9DD0D400068704 /* fartsound_appTests.xctest */;
+			productName = FartSoundService.swiftTests;
+			productReference = EB9128E62E9DD33200068704 /* FartSoundService.swiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EB9128BC2E9DD0D400068704 /* fartsound_appUITests */ = {
+		EB9128EF2E9DD33200068704 /* FartSoundService.swiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB9128CD2E9DD0D400068704 /* Build configuration list for PBXNativeTarget "fartsound_appUITests" */;
+			buildConfigurationList = EB9129002E9DD33200068704 /* Build configuration list for PBXNativeTarget "FartSoundService.swiftUITests" */;
 			buildPhases = (
-				EB9128B92E9DD0D400068704 /* Sources */,
-				EB9128BA2E9DD0D400068704 /* Frameworks */,
-				EB9128BB2E9DD0D400068704 /* Resources */,
+				EB9128EC2E9DD33200068704 /* Sources */,
+				EB9128ED2E9DD33200068704 /* Frameworks */,
+				EB9128EE2E9DD33200068704 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EB9128BF2E9DD0D400068704 /* PBXTargetDependency */,
+				EB9128F22E9DD33200068704 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				EB9128C02E9DD0D400068704 /* fartsound_appUITests */,
+				EB9128F32E9DD33200068704 /* FartSoundService.swiftUITests */,
 			);
-			name = fartsound_appUITests;
+			name = FartSoundService.swiftUITests;
 			packageProductDependencies = (
 			);
-			productName = fartsound_appUITests;
-			productReference = EB9128BD2E9DD0D400068704 /* fartsound_appUITests.xctest */;
+			productName = FartSoundService.swiftUITests;
+			productReference = EB9128F02E9DD33200068704 /* FartSoundService.swiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EB91289E2E9DD0D200068704 /* Project object */ = {
+		EB9128D12E9DD32E00068704 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					EB9128A52E9DD0D200068704 = {
+					EB9128D82E9DD32E00068704 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
-					EB9128B22E9DD0D400068704 = {
+					EB9128E52E9DD33200068704 = {
 						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = EB9128A52E9DD0D200068704;
+						TestTargetID = EB9128D82E9DD32E00068704;
 					};
-					EB9128BC2E9DD0D400068704 = {
+					EB9128EF2E9DD33200068704 = {
 						CreatedOnToolsVersion = 26.0.1;
-						TestTargetID = EB9128A52E9DD0D200068704;
+						TestTargetID = EB9128D82E9DD32E00068704;
 					};
 				};
 			};
-			buildConfigurationList = EB9128A12E9DD0D200068704 /* Build configuration list for PBXProject "fartsound_app" */;
+			buildConfigurationList = EB9128D42E9DD32E00068704 /* Build configuration list for PBXProject "FartSoundService.swift" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				ja,
+				es,
+				ko,
 			);
-			mainGroup = EB91289D2E9DD0D200068704;
+			mainGroup = EB9128D02E9DD32E00068704;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EB9128A72E9DD0D200068704 /* Products */;
+			productRefGroup = EB9128DA2E9DD32E00068704 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB9128A52E9DD0D200068704 /* fartsound_app */,
-				EB9128B22E9DD0D400068704 /* fartsound_appTests */,
-				EB9128BC2E9DD0D400068704 /* fartsound_appUITests */,
+				EB9128D82E9DD32E00068704 /* FartSoundService.swift */,
+				EB9128E52E9DD33200068704 /* FartSoundService.swiftTests */,
+				EB9128EF2E9DD33200068704 /* FartSoundService.swiftUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EB9128A42E9DD0D200068704 /* Resources */ = {
+		EB9128D72E9DD32E00068704 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB9128B12E9DD0D400068704 /* Resources */ = {
+		EB9128E42E9DD33200068704 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB9128BB2E9DD0D400068704 /* Resources */ = {
+		EB9128EE2E9DD33200068704 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +260,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EB9128A22E9DD0D200068704 /* Sources */ = {
+		EB9128D52E9DD32E00068704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB9128AF2E9DD0D400068704 /* Sources */ = {
+		EB9128E22E9DD33200068704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB9128B92E9DD0D400068704 /* Sources */ = {
+		EB9128EC2E9DD33200068704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +284,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EB9128B52E9DD0D400068704 /* PBXTargetDependency */ = {
+		EB9128E82E9DD33200068704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB9128A52E9DD0D200068704 /* fartsound_app */;
-			targetProxy = EB9128B42E9DD0D400068704 /* PBXContainerItemProxy */;
+			target = EB9128D82E9DD32E00068704 /* FartSoundService.swift */;
+			targetProxy = EB9128E72E9DD33200068704 /* PBXContainerItemProxy */;
 		};
-		EB9128BF2E9DD0D400068704 /* PBXTargetDependency */ = {
+		EB9128F22E9DD33200068704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB9128A52E9DD0D200068704 /* fartsound_app */;
-			targetProxy = EB9128BE2E9DD0D400068704 /* PBXContainerItemProxy */;
+			target = EB9128D82E9DD32E00068704 /* FartSoundService.swift */;
+			targetProxy = EB9128F12E9DD33200068704 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		EB9128C52E9DD0D400068704 /* Debug */ = {
+		EB9128F82E9DD33200068704 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,7 +361,7 @@
 			};
 			name = Debug;
 		};
-		EB9128C62E9DD0D400068704 /* Release */ = {
+		EB9128F92E9DD33200068704 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +418,7 @@
 			};
 			name = Release;
 		};
-		EB9128C82E9DD0D400068704 /* Debug */ = {
+		EB9128FB2E9DD33200068704 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -410,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.fartsound-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.FartSoundService-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -422,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		EB9128C92E9DD0D400068704 /* Release */ = {
+		EB9128FC2E9DD33200068704 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -442,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.fartsound-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.FartSoundService-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -454,7 +482,7 @@
 			};
 			name = Release;
 		};
-		EB9128CB2E9DD0D400068704 /* Debug */ = {
+		EB9128FE2E9DD33200068704 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,7 +492,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.fartsound-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.FartSoundService-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -472,11 +500,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fartsound_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fartsound_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FartSoundService.swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FartSoundService.swift";
 			};
 			name = Debug;
 		};
-		EB9128CC2E9DD0D400068704 /* Release */ = {
+		EB9128FF2E9DD33200068704 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,7 +514,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.fartsound-appTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.FartSoundService-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -494,11 +522,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fartsound_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fartsound_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FartSoundService.swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FartSoundService.swift";
 			};
 			name = Release;
 		};
-		EB9128CE2E9DD0D400068704 /* Debug */ = {
+		EB9129012E9DD33200068704 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -506,7 +534,7 @@
 				DEVELOPMENT_TEAM = GZRS8AUF7A;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.fartsound-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.FartSoundService-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -514,11 +542,11 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = fartsound_app;
+				TEST_TARGET_NAME = FartSoundService.swift;
 			};
 			name = Debug;
 		};
-		EB9128CF2E9DD0D400068704 /* Release */ = {
+		EB9129022E9DD33200068704 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -526,7 +554,7 @@
 				DEVELOPMENT_TEAM = GZRS8AUF7A;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.fartsound-appUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yonghunkim.FartSoundService-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -534,50 +562,50 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = fartsound_app;
+				TEST_TARGET_NAME = FartSoundService.swift;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB9128A12E9DD0D200068704 /* Build configuration list for PBXProject "fartsound_app" */ = {
+		EB9128D42E9DD32E00068704 /* Build configuration list for PBXProject "FartSoundService.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB9128C52E9DD0D400068704 /* Debug */,
-				EB9128C62E9DD0D400068704 /* Release */,
+				EB9128F82E9DD33200068704 /* Debug */,
+				EB9128F92E9DD33200068704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB9128C72E9DD0D400068704 /* Build configuration list for PBXNativeTarget "fartsound_app" */ = {
+		EB9128FA2E9DD33200068704 /* Build configuration list for PBXNativeTarget "FartSoundService.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB9128C82E9DD0D400068704 /* Debug */,
-				EB9128C92E9DD0D400068704 /* Release */,
+				EB9128FB2E9DD33200068704 /* Debug */,
+				EB9128FC2E9DD33200068704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB9128CA2E9DD0D400068704 /* Build configuration list for PBXNativeTarget "fartsound_appTests" */ = {
+		EB9128FD2E9DD33200068704 /* Build configuration list for PBXNativeTarget "FartSoundService.swiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB9128CB2E9DD0D400068704 /* Debug */,
-				EB9128CC2E9DD0D400068704 /* Release */,
+				EB9128FE2E9DD33200068704 /* Debug */,
+				EB9128FF2E9DD33200068704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB9128CD2E9DD0D400068704 /* Build configuration list for PBXNativeTarget "fartsound_appUITests" */ = {
+		EB9129002E9DD33200068704 /* Build configuration list for PBXNativeTarget "FartSoundService.swiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB9128CE2E9DD0D400068704 /* Debug */,
-				EB9128CF2E9DD0D400068704 /* Release */,
+				EB9129012E9DD33200068704 /* Debug */,
+				EB9129022E9DD33200068704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EB91289E2E9DD0D200068704 /* Project object */;
+	rootObject = EB9128D12E9DD32E00068704 /* Project object */;
 }

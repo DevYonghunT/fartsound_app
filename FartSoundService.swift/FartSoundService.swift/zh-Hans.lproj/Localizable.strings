@@ -1,0 +1,27 @@
+"app_title" = "放屁游乐场";
+"initial_message" = "点击屏幕听各种搞笑的放屁声！";
+"initial_bottom_message" = "每次点击都会播放新的声音";
+
+// Button texts
+"button_text_1" = "噗！";
+"button_text_2" = "噗噗！";
+"button_text_3" = "嗤嗤～";
+"button_text_4" = "噗噗爆炸！";
+"button_text_5" = "放屁精灵出动！";
+"button_text_6" = "噗噗大魔王登场";
+"button_text_7" = "噗噗冠军！";
+"button_text_8" = "超强噗力量！";
+"button_text_9" = "噗噜～噗";
+"button_text_10" = "噗～";
+
+// Bottom messages
+"bottom_msg_1" = "每次点击都会播放新的声音";
+"bottom_msg_2" = "尽情享受搞笑的放屁声！";
+"bottom_msg_3" = "今天也要快乐的噗噗时光～";
+"bottom_msg_4" = "充满有趣的放屁声音！";
+"bottom_msg_5" = "每次都是不同的声音";
+"bottom_msg_6" = "感受放屁的魔力";
+"bottom_msg_7" = "欢迎来到噗噗的世界";
+"bottom_msg_8" = "神奇的放屁世界";
+"bottom_msg_9" = "继续点击听更多声音";
+"bottom_msg_10" = "儿童放屁音乐会！";

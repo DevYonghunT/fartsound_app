@@ -1,0 +1,27 @@
+"app_title" = "Parque de Pedos";
+"initial_message" = "¡Toca la pantalla para escuchar divertidos pedos!";
+"initial_bottom_message" = "Cada toque reproduce un sonido nuevo";
+
+// Button texts
+"button_text_1" = "¡Pedo!";
+"button_text_2" = "¡Puf puf!";
+"button_text_3" = "¡Prrrr~";
+"button_text_4" = "¡Explosión de pedos!";
+"button_text_5" = "¡Hada de pedos!";
+"button_text_6" = "Rey de pedos";
+"button_text_7" = "¡Campeón!";
+"button_text_8" = "¡Súper poder!";
+"button_text_9" = "¡Pfff~";
+"button_text_10" = "¡Puff~";
+
+// Bottom messages
+"bottom_msg_1" = "Cada toque reproduce un sonido nuevo";
+"bottom_msg_2" = "¡Disfruta de sonidos divertidos!";
+"bottom_msg_3" = "Hora feliz de pedos hoy~";
+"bottom_msg_4" = "¡Lleno de sonidos graciosos!";
+"bottom_msg_5" = "Sonido diferente cada vez";
+"bottom_msg_6" = "Siente la magia de los pedos";
+"bottom_msg_7" = "Bienvenido al mundo de pedos";
+"bottom_msg_8" = "Mundo asombroso de pedos";
+"bottom_msg_9" = "Sigue tocando para más sonidos";
+"bottom_msg_10" = "¡Concierto de pedos para niños!";
