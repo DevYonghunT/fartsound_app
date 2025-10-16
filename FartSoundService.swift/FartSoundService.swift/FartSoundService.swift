@@ -9,9 +9,9 @@ enum SoundSelectionMode: Equatable {
     var displayName: String {
         switch self {
         case .auto:
-            return NSLocalizedString("sound_auto", comment: "")
+            return NSLocalizedString("자동", comment: "")
         case .manual(let index):
-            return NSLocalizedString("sound_\(index + 1)", comment: "")
+            return NSLocalizedString("방구\(index + 1)", comment: "")
         }
     }
 }
