@@ -5,7 +5,7 @@ struct SoundSelectorView: View {
     @ObservedObject var fartService: FartSoundService
     @EnvironmentObject var hapticService: HapticService
 
-    // MARK: Data (자동 + 1~10)
+    // MARK: Data (자동 + 방구1~10)
     private let baseOptions: [SoundSelectionMode] = {
         var arr: [SoundSelectionMode] = [.auto]
         arr.append(contentsOf: (0..<10).map { .manual(index: $0) })
@@ -22,10 +22,10 @@ struct SoundSelectorView: View {
     @State private var selectedIndex: Int = 0
 
     // 레이아웃
-    private let itemWidth: CGFloat = 56
-    private let itemHeight: CGFloat = 52
-    private let itemSpacing: CGFloat = 12
-    private let visibleWidth: CGFloat = 120
+    private let itemWidth: CGFloat = 52
+    private let itemHeight: CGFloat = 48
+    private let itemSpacing: CGFloat = 6
+    private let visibleWidth: CGFloat = 100
 
     var body: some View {
         scrollContent()
@@ -39,21 +39,20 @@ struct SoundSelectorView: View {
 
     @ViewBuilder
     private func scrollContent() -> some View {
-        // iOS 17 스냅 스크롤
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHStack(spacing: itemSpacing) {
                 ForEach(0..<totalCount, id: \.self) { i in
                     cell(for: i)
-                        .id(i) // 스냅 타깃
+                        .id(i)
                         .containerRelativeFrame(.horizontal, count: 1, span: 1, spacing: itemSpacing)
-                            .frame(width: itemWidth)
+                        .frame(width: itemWidth)
                 }
             }
-            .padding(.horizontal, (visibleWidth - itemWidth) / 2) // 중앙 정렬 보정
+            .padding(.horizontal, (visibleWidth - itemWidth) / 2)
             .scrollTargetLayout()
         }
-        .scrollTargetBehavior(.viewAligned)               // 가장 가까운 셀에 스냅
-        .scrollPosition(id: $scrollPosition, anchor: .center) // 중앙 기준
+        .scrollTargetBehavior(.viewAligned)
+        .scrollPosition(id: $scrollPosition, anchor: .center)
     }
 
     @ViewBuilder
@@ -75,34 +74,24 @@ struct SoundSelectorView: View {
     // MARK: - Logic
 
     private func setupInitialPosition() {
-        // FartSoundService의 selectionMode를 중앙 근처 인덱스로 맵핑
-        let startBaseIndex: Int
-        switch fartService.selectionMode {
-        case .auto:
-            startBaseIndex = 0
-        case .manual(let i):
-            // .auto가 0번이므로 manual(0)은 1번에 해당
-            startBaseIndex = max(1, min(i + 1, baseCount - 1))
-        }
-
+        // 무조건 '자동'을 중앙에 배치
+        let startBaseIndex: Int = 0
         let middle: Int = (totalCount / 2) - ((totalCount / 2) % baseCount)
         let start: Int = middle + startBaseIndex
         selectedIndex = start
         scrollPosition = start
+        fartService.selectionMode = .auto
     }
 
     private func handleScrollChange(_ old: Int?, _ newValue: Int?) {
         guard let newValue else { return }
 
-        // 가장자리 접근 시 중앙 등가 위치로 점프
         recenterIfNeeded(current: newValue)
 
-        // 선택 상태 반영
         let baseIndex: Int = newValue % baseCount
         let newMode: SoundSelectionMode = baseOptions[baseIndex]
         applySelection(mode: newMode)
 
-        // 변경 피드백
         if selectedIndex != newValue {
             selectedIndex = newValue
             hapticService.selectionTick(playClickSound: true)
@@ -121,7 +110,6 @@ struct SoundSelectorView: View {
         let target: Int = middle + baseIndex
 
         DispatchQueue.main.async {
-            // 애니메이션 없이 순간 이동 → 무한 스크롤 느낌 유지
             withAnimation(.none) {
                 scrollPosition = target
                 selectedIndex = target
@@ -132,7 +120,7 @@ struct SoundSelectorView: View {
     private func shortName(for mode: SoundSelectionMode) -> String {
         switch mode {
         case .auto: return "자동"
-        case .manual(let idx): return "\(idx + 1)"
+        case .manual(let idx): return "방구\(idx + 1)"
         }
     }
 
@@ -144,12 +132,11 @@ struct SoundSelectorView: View {
     }
 
     private func applySelection(mode: SoundSelectionMode) {
-        // 메인 버튼에서 이 모드 기준으로 소리 재생됨
         fartService.selectionMode = mode
     }
 }
 
-// MARK: - Subview: 단순한 셀(타입 추론 완화용)
+// MARK: - Subview
 private struct SoundCellView: View {
     let title: String
     let isSelected: Bool

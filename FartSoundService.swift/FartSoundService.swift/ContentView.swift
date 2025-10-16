@@ -51,10 +51,10 @@ struct ContentView: View {
             backgroundGradient.ignoresSafeArea()
             RainbowBorderView(isAnimating: showRainbowBorder)
 
-            VStack(spacing: 0) {
+            VStack(spacing: 10) {
 
                 // 상단 컨트롤바 - 오른쪽 정렬, 가로 배치
-                HStack(spacing: 12) {
+                HStack(spacing: 0) {
                     Spacer()
                     
                     // 사운드 선택 스크롤
@@ -97,7 +97,7 @@ struct ContentView: View {
                     }
                 }
                 .padding(.trailing, 20)
-                .padding(.top, 16)
+                .padding(.top, 0)
 
                 // 상단 여백 - 컨트롤과 타이틀 사이
                 Spacer()
